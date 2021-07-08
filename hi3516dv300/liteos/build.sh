@@ -21,9 +21,9 @@ BOARD="$3"
 OHOS_BUILD_COMPILER="$5"
 function copySocLib() {
     ROOT_DIR=$(cd $(dirname "$0");pwd)
-    SOURCE_LIB="$ROOT_DIR/../../../../device/hisilicon/hispark_taurus/sdk_liteos/mpp/lib"
+    SOURCE_LIB="$ROOT_DIR/../../../../../device/hisilicon/hispark_taurus/sdk_liteos/mpp/lib"
     if [ "$OHOS_BUILD_COMPILER" = "gcc" ];then
-        SOURCE_LIB="$ROOT_DIR/../../../../device/hisilicon/hi3516dv300/sdk_liteos/mpp/lib"
+        SOURCE_LIB="$ROOT_DIR/../../../../../device/hisilicon/hi3516dv300/sdk_liteos/mpp/lib"
     fi
     cp -rf $SOURCE_LIB/./libmpi.so $OUT_DIR/
     cp -rf $SOURCE_LIB/./lib_hiacs.so $OUT_DIR/
