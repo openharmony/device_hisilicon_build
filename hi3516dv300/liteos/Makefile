@@ -1,5 +1,5 @@
 
-LITEOSTOPDIR := $(shell pwd)/../../../../kernel/liteos_a
+LITEOSTOPDIR := $(shell pwd)/../../../../../kernel/liteos_a
 CONFIG_FILE := $(LITEOSTOPDIR)/.config
 
 ifeq ($(wildcard $(CONFIG_FILE)), )
