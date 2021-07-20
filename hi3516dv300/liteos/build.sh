@@ -61,7 +61,7 @@ function main(){
     ROOT_DIR=$(cd $(dirname "$0");pwd)
     copySocLib
     cd "$ROOT_DIR"
-    make clean && make -j16 OUTDIR=$OUT_DIR
+    make clean OUTDIR=$OUT_DIR && make -j16 OUTDIR=$OUT_DIR
     cp OHOS_Image* $OUT_DIR/
 }
 main "$@"
