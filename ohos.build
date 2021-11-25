@@ -3,7 +3,8 @@
     "parts": {
         "hisilicon_products": {
             "module_list": [
-                "//device/hisilicon/build:products_group"
+                "//device/hisilicon/build:products_group",
+                "//device/hisilicon/drivers/firmware/common/wlan:wifi_firmware"
             ]
         }
     }
