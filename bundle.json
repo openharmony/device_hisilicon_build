@@ -1,0 +1,56 @@
+{
+    "name": "@ohos/device_hisilicon_build",
+    "version": "",
+    "description": "Scripts for compiling and packaging kernel images | 编译打包内核镜像的编译脚本",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/device_hisilicon_build",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "device"
+    ],
+    "keywords": [
+        "device",
+        "hisilicon",
+        "build"
+    ],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+        "destPath": "device/hisilicon/build"
+    },
+    "component": {
+        "name": "device_hisilicon_build",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
